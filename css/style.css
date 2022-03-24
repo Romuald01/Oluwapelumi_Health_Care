@@ -95,6 +95,11 @@ ul li{
     background-repeat: no-repeat;
 
 }
+.click-description{
+    text-align: center;
+    width: 100%;
+    margin:auto;
+}
 
 .footer{
     background-color: #0000ff;

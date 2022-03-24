@@ -1,0 +1,140 @@
+
+*,*::before,*::after{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif !important;
+}
+.hospital-name{
+
+}
+.vision-heading,.mission-heading{
+    text-transform: uppercase;
+    text-align: center;
+    color:blue;
+
+}
+.mission-and-vision {
+    background-color: dodgerblue;
+
+}
+.mission-and-vision .paragraph{
+    color:#fff;
+    text-align: justify;
+
+}
+
+/* card styling */
+.card-body{
+    text-align: center;
+    background-color: #0000ff;
+}
+.card-text{
+    font-size: 27px;
+    color:#fff
+}
+
+/* ours servive styling  start*/
+.service-heading{
+    text-align: center;
+    border: 2px dotted #0000ff;
+}
+.service-text-box{
+    border:1px solid yellow;
+
+
+}
+.service-text-box:hover{
+    background-color: #fff;
+    color:#0000ff;
+}
+
+.carousel-item{
+    background-color:#0000ff;
+    color:#fff;
+}
+.testifier-name{
+    font-weight: 600;
+    
+}
+.health-definition{
+font-size: 24px;
+}
+.ceo-name{
+    font-weight: 900;
+
+}
+/* core values styling */
+.core-values{
+margin-top: 3%;
+
+}
+ul li{
+    list-style-type: circle;
+    font-size: 24px;
+}
+.core-value-heading{
+    text-align: center;
+}
+.ceo_img{
+    height: 500px;
+    background-image: url(../images/ceo_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.footer{
+    background-color: #0000ff;
+    height: 100px;
+    margin-top: 5%;
+    color: #fff;
+}
+
+
+
+/* ours servive styling ends */
+/* .collapse{
+    display:flex !important;
+    justify-content:space-between !important;
+    position:absolute !important;
+    right:0 !important;
+} */
+
+@media screen and (max-width:767px) {
+
+.hospital-name{
+   font-size: 20px; 
+}
+.marquee-text{
+    font-size: 18px;
+}
+}
+@media screen and (max-width:767px) {
+.card{
+margin-top: 5%;
+}
+}
+@media screen and (max-width:425px) {
+    .card{
+    margin:auto;
+    }
+    .vision-heading,.mission-heading{
+        font-size: 24px;
+    }
+    .card{
+        margin-top: 5%;
+        }
+        .service-heading{
+            font-size: 24px;
+        }
+        .health-definition{
+            font-size: 16px;
+        }
+        .ceo_img{
+            /* height: 300px; */
+        }
+
+}

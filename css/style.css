@@ -66,6 +66,16 @@ font-size: 24px;
     font-weight: 900;
 
 }
+.contact-us-div img{
+height: 50px;
+}
+
+.contact-us-div-2 img{
+    height: 50px;
+    }
+    .contact-us-div-3 img{
+        height: 50px;
+        }
 /* core values styling */
 .core-values{
 margin-top: 3%;
@@ -133,8 +143,29 @@ margin-top: 5%;
         .health-definition{
             font-size: 16px;
         }
-        .ceo_img{
-            /* height: 300px; */
+        .marquee-box{
+            position: absolute;
+            margin-top: 2%;
         }
-
+        .contact-us-div{
+            /* position: absolute; */
+            /* margin-top: 50%; */
+        }
+        .ceo_card{
+            margin-top: 10%;
+        }
+        .footer{
+            margin-top: 10%;
+        }
+        .marquee-box{
+            display: none;
+        }
+        .core-values{
+                background-color: #0000ff;
+                color: #fff;
+        }
+        .core-values ul li{
+            font-size: 18px;
+        }
+      
 }

@@ -1,4 +1,4 @@
-function pop() {
-  alert("Romuald loves you oluwapelumi,please click okN");
+function complaints() {
+  alert("Thank You, You complaints has been received.");
 }
 

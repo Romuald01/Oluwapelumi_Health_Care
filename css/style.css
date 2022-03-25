@@ -82,19 +82,65 @@ margin-top: 3%;
 
 }
 ul li{
-    list-style-type: circle;
+    list-style-type: none;
     font-size: 24px;
 }
 .core-value-heading{
     text-align: center;
 }
+
 .ceo_img{
-    height: 500px;
+    height: 510px;
     background-image: url(../images/ceo_img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    /* border-radius: 50%; */
+    /* border:2px dotted blue; */
 
 }
+.complain_heading{
+    margin-top: 5%;
+    text-align: center;
+}
+/* form-styling */
+input{
+
+margin:10px;
+padding: 4px;
+
+}
+input::placeholder{
+    font-weight: 700;
+
+}
+.complain-form-column{
+    /* border: 2px dotted blue; */
+}
+.complain-form{
+    text-align: center;
+}
+.complain-form button {
+    width: 74%;
+    text-align: center;
+    background-color: #0000ff;
+    color:#fff;
+    font-weight: 700;
+    border: none;
+    padding: 4px;
+    border-radius: 2px;
+}
+.home_address{
+    /* padding:10px; */
+    height: 50px;
+}
+.complain-form button:hover{
+    color:#0000ff;
+    background-color: #fff;
+    border:2px dotted blue;
+    border-radius: 2px;
+}
+
+/* form-styling ends */
 .click-description{
     text-align: center;
     width: 100%;
@@ -108,8 +154,17 @@ ul li{
     color: #fff;
 }
 
+.dev_name{
+color:#fff;
+}
+.specialize_headings{
+    text-align: center;
+}
+.complain-row{
+    border:1px solid #0000ff;
+    padding:10px;
 
-
+}
 /* ours servive styling ends */
 /* .collapse{
     display:flex !important;
@@ -118,8 +173,8 @@ ul li{
     right:0 !important;
 } */
 
+/* ------------------------MEDIA QUERY START HERE--------------------------- */
 @media screen and (max-width:767px) {
-
 .hospital-name{
    font-size: 20px; 
 }
@@ -130,6 +185,10 @@ ul li{
 @media screen and (max-width:767px) {
 .card{
 margin-top: 5%;
+}
+.complain_heading{
+    font-size: 18px;
+   
 }
 }
 @media screen and (max-width:425px) {
@@ -148,23 +207,23 @@ margin-top: 5%;
         .health-definition{
             font-size: 16px;
         }
-        .marquee-box{
-            position: absolute;
-            margin-top: 2%;
+        .specialize_headings{
+            font-size: 20px;
+            margin-top: 5%;
+            text-transform: capitalize;
+            
         }
-        .contact-us-div{
-            /* position: absolute; */
-            /* margin-top: 50%; */
-        }
+      .specialize_lists li{
+          font-size: 18px;
+          /* padding-left: ; */
+      }
         .ceo_card{
             margin-top: 10%;
         }
         .footer{
             margin-top: 10%;
         }
-        .marquee-box{
-            display: none;
-        }
+       
         .core-values{
                 background-color: #0000ff;
                 color: #fff;
